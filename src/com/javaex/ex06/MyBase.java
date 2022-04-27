@@ -4,7 +4,7 @@ public class MyBase extends Base {
 
     public void service(String state) {
 
-        if (state.equals("낮")) { //문자열의 같다(==) 는 equals()를 사용합니다.
+        if (state.equals("낮")) { 
             day();
         } else if(state.equals("밤")) {
             night();
